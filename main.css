@@ -1,0 +1,170 @@
+.container{
+    background-color: #edf2f4;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+.title-head{
+    height: 60px;
+    background-color: rgb(52, 52, 97);
+    color: whitesmoke;
+    font-size: 25px;
+    border-radius: 0px 0px 3px 3px;
+}
+.title-head p{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.form-title{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 0;
+}
+.message {
+    font-size: 16px;
+    width: 1070px;
+    display: inline-block;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+.error {
+    color: red;
+    background-color: rgb(252, 252, 157);
+}
+
+
+.success {
+    color: rgb(0, 39, 0);
+    background-color: rgba(105, 255, 118, 0.5);
+}
+.key{
+    color: darkgreen;
+    font-size: 13px;
+    font-weight: 500;
+}
+.key span{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+section{
+    padding: 20px;
+    border-radius: 5px;
+    width: 96.4%;
+}
+label{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(52, 52, 97);
+}
+/* Style the input fields */
+input[type=text], input[type=number], input[type=tel], select, input[type=date], input[type=email] {
+    width: 530px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    margin-left: 0;
+    margin-right: 10px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea{
+    width: 1080px;
+    height: 100px;
+    padding: 10px 20px;
+    margin: 7px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    resize: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: rgb(0, 158, 0);
+    color: white;
+    padding: 14px 7px;
+    margin-left: 14px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 7%;
+}
+
+/* Style the reset button */
+input[type=reset] {
+    color: white;
+    padding: 14px 7px;
+    margin-right: 14px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 7%;
+    float: right;
+    background-color: red;
+}
+input[type=reset]:hover{
+    background-color: #e90000;
+}
+input[value="Update"]{
+    background-color: #007bff;
+}
+input[value="Update"]:hover{
+    background-color: #0069d9 !important;
+}
+
+/* Add a hover effect for the submit button */
+input[type=submit]:hover {
+    background-color: #007400;
+}
+
+
+
+@media(max-width: 600px){
+    input[type=text], input[type=number], input[type=tel], select, input[type=date], input[type=email] {
+        width: 380px;
+    }
+    textarea{
+        width: 380px;
+    }
+    input[type=submit] {
+        width: 20%;
+    }
+    input[type=reset] {
+        width: 20%;
+    }
+    form{
+        padding: 10px 10px 10px 10px;
+        margin-top: 10px;
+    }
+    .message {
+        width: 370px;
+        padding-top: 10px ;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .alert{
+        margin-top: 0;
+        width: 370px;
+        margin-bottom: 0;
+        font-size: 13px;
+        font-weight: 400;
+
+    }
+}
+
